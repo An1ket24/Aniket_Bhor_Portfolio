@@ -1,0 +1,22 @@
+{
+  "experience": [
+    {
+      "clogo": "/companyLogo/ador-logo.png",
+      "title": "Full Stack Developer",
+      "company": "Ador Powertron India Pvt. Ltd.",
+      "point1": "Worked on a CMS (Charger Management System) to manage EV charger data, UI components, and system interactions.",
+      "point2": "Utilized Docker to fetch OCPP logs and charger state logs for diagnostics and backend integration.",
+      "startDate": "May, 2025",
+      "endDate": "July, 2025"
+    },
+    {
+      "clogo": "/companyLogo/rbtech-logo.jpg",
+      "title": "Web Development Intern",
+      "company": "R.B Tech Services Pvt. Ltd.",
+      "point1": "Built a responsive e-commerce platform using PHP, PostgreSQL, HTML, and CSS to enable seamless remote purchases.",
+      "point2": "Redesigned UI with CSS Flex/Grid and mobile-first layouts, improving UX scores by 33% and optimizing cart/checkout modules.",
+      "startDate": "June, 2022",
+      "endDate": "July, 2022"
+    }
+  ]
+}
