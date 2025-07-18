@@ -1,7 +1,6 @@
 import React from "react";
-import Image from "next/image";
 import { motion } from "framer-motion";
-
+// import Image from "next/image";
 // import profilePic from "public/extraImages/profilePic.jpeg"; // Replace with your image
 
 type Props = {};
@@ -19,7 +18,8 @@ export default function About({}: Props) {
         About
       </h3>
 
-      {/* <Image
+      {/* Uncomment and add your image when needed
+      <Image
         width={350}
         height={450}
         src={profilePic}
@@ -58,12 +58,12 @@ export default function About({}: Props) {
         </div>
 
         <p className="text-sm md:text-base lg:text-lg font-light md:px-7 pt-3 font-outfit">
-          Hi, I’m{" "}
+          {`Hi, I'm `}
           <span className="text-blue-500 font-semibold">Vishal Godalkar</span>, a full-stack developer based in Pune. I specialize in building modern web applications using technologies like Node.js, React, PostgreSQL, and Python.
           <br />
           <br />
-          I’m currently pursuing my Bachelor's in Information Technology from{" "}
-          <span className="text-blue-500 font-semibold">PCCOE</span> and I’m deeply passionate about crafting efficient, scalable, and user-focused digital solutions.
+          {`I'm currently pursuing my Bachelor's in Information Technology from `}
+          <span className="text-blue-500 font-semibold">PCCOE</span> and {`I'm`} deeply passionate about crafting efficient, scalable, and user-focused digital solutions.
           <br />
           <br />
           Outside coding, I love exploring emerging technologies, building meaningful side projects, and collaborating with curious minds to bring ideas to life.
