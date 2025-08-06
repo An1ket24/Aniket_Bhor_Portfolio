@@ -20,7 +20,7 @@ const achievements: Achievement[] = [
     description:
       "Secured 2nd Prize, Trophy & ₹3000 Cash Prize at Institute of Technology, Management & Research, Nashik.",
     image: "/achievements/winner.png",
-    link: "https://www.linkedin.com/feed/update/urn:li:activity:7221163339622588416/",
+    link: "",
     category: "Competition",
     date: "2023",
   },
@@ -29,7 +29,7 @@ const achievements: Achievement[] = [
     description:
       "Awarded as Most Innovative Project of 2023 at GMRT Khodad (NCRA – TIFR, Pune) and Indian Institute of Knowledge (IIK), Pune.",
     image: "/achievements/winner.png",
-    link: "https://www.linkedin.com/feed/update/urn:li:activity:7221163339622588416/",
+    link: "",
     category: "Innovation",
     date: "2023",
   },
@@ -38,7 +38,7 @@ const achievements: Achievement[] = [
     description:
       "Received Participation Certificate at JSPM & TSSM Bhivrabai Sawant College of Engineering and Research, Polytechnic, Narhe Pune.",
     image: "/achievements/winner.png",
-    link: "https://www.linkedin.com/feed/update/urn:li:activity:7221163339622588416/",
+    link: "",
     category: "Competition",
     date: "2023",
   },
@@ -47,7 +47,7 @@ const achievements: Achievement[] = [
     description:
       "Received Participation Certificate at Sau. Sundarabai Manik Adsul Polytechnic.",
     image: "/achievements/adsul.png",
-    link: "https://www.linkedin.com/feed/update/urn:li:activity:7221163339622588416/",
+    link: "",
     category: "Competition",
     date: "2023",
   },
@@ -56,7 +56,7 @@ const achievements: Achievement[] = [
     description:
       "Received Participation Certificate at Sipna College of Engineering and Technology, Amravati.",
     image: "/achievements/winner.png",
-    link: "https://www.linkedin.com/feed/update/urn:li:activity:7221163339622588416/",
+    link: "",
     category: "Competition",
     date: "2023",
   }
