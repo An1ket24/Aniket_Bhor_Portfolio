@@ -2,21 +2,21 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 export const metadata = {
   charset: "utf-8",
-  title: "Vishal Godalkar - Portfolio",
+  title: "Aniket Bhor - Portfolio",
   description:
-    "Portfolio website of Vishal Godalkar, full stack developer, problem solver, and tech enthusiast from Pune, India.",
+    "Portfolio website of Aniket Bhor, AI developer, problem solver, and tech enthusiast from Pune, India.",
   keywords:
-    "Vishal Godalkar, Full Stack Developer, Node.js, React, Python, Web Developer, PCCOE, Pune, India",
-  author: "Vishal Godalkar",
+    "Aniket Bhor, Software Developer,  Python, Data Science,  Web Developer, DYPCOE, Pune, India",
+  author: "Aniket Bhor",
   openGraph: {
-    url: "https://github.com/Vishalgodalkar", // You can replace this with a hosted portfolio URL
-    title: "Vishal Godalkar - Portfolio",
+    url: "https://github.com/An1ket24", // You can replace this with a hosted portfolio URL
+    title: "Aniket Bhor - Portfolio",
     description:
-      "Explore Vishal Godalkar’s projects, skills, and achievements as a full stack developer and open-source contributor.",
-    siteName: "Vishal Godalkar - Portfolio",
+      "Explore Aniket Bhor’s projects, skills, and achievements as a developer and open-source contributor.",
+    siteName: "Aniket Bhor - Portfolio",
     images: [
       {
-        url: "https://raw.githubusercontent.com/Vishalgodalkar/portfolio/main/public/preview.png", // Replace with your actual portfolio screenshot
+        url: "https://github.com/An1ket24/Aniket_Bhor_Portfolio/blob/ad1dfc5b27f0c32d4d2cdb494f255c61496f8535/public/preview.png", // Replace with your actual portfolio screenshot
         width: 800,
         height: 600,
       },
@@ -26,12 +26,12 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vishal Godalkar - Portfolio",
+    title: "Aniket Bhor - Portfolio",
     description:
-      "Explore Vishal Godalkar’s personal portfolio showcasing development work and achievements.",
+      "Explore Aniket’s personal portfolio showcasing development work and achievements.",
     images: [
       {
-        url: "https://raw.githubusercontent.com/Vishalgodalkar/portfolio/main/public/preview.png", // Replace with your actual portfolio screenshot
+        url: "https://github.com/An1ket24/Aniket_Bhor_Portfolio/blob/ad1dfc5b27f0c32d4d2cdb494f255c61496f8535/public/preview.png", // Replace with your actual portfolio screenshot
         width: 800,
         height: 600,
       },
