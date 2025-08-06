@@ -1,14 +1,14 @@
 {
   "experience": [
     {
-      "clogo": "/companyLogo/ador-logo.png",
-      "title": "Full Stack Developer",
-      "company": "Ador Powertron India Pvt. Ltd.",
-      "point1": "Worked on a CMS (Charger Management System) to manage EV charger data, UI components, and system interactions.",
-      "point2": "Utilized Docker to fetch OCPP logs and charger state logs for diagnostics and backend integration.",
-      "startDate": "May, 2025",
-      "endDate": "July, 2025"
-    },
+    "clogo": "/companyLogo/agrostar-logo.png",
+    "title": "Technology Intern",
+    "company": "AgroStar",
+    "point1": "Tested and validated features across multiple platforms including the Farmers App, Agro Ex App, CRM, and Pristine (warehouse management software).",
+    "point2": "Collaborated with the QA and development teams to report bugs, ensure functionality, and improve user experience through test cases and regression testing.",
+    "startDate": "Jan, 2025",
+    "endDate": "July, 2025"
+  },
     {
       "clogo": "/companyLogo/rbtech-logo.jpg",
       "title": "Web Development Intern",

@@ -15,15 +15,15 @@ export default function Contact({}: Props) {
 
         <div className="flex flex-wrap gap-6 justify-center font-outfit text-xl font-extralight text-gray-500 mt-14">
           {[
-            { name: "LinkedIn", href: "https://www.linkedin.com/in/vishal-godalkar-a42543245/?originalSubdomain=in" },
-            { name: "GitHub", href: "https://github.com/Vishalgodalkar" },
+            { name: "LinkedIn", href: "https://www.linkedin.com/in/bhoraniket/" },
+            { name: "GitHub", href: "https://github.com/An1ket24" },
             {
               name: "WhatsApp",
-              href: "https://wa.me/917888049161",
+              href: "https://wa.me/918459402046",
             },
             {
               name: "Mail",
-              href: "mailto:vishalgodalkar1@gmail.com",
+              href: "mailto:bhoraniket24@gmail.com",
             },
           ].map((social, index) => (
             <p
@@ -61,7 +61,7 @@ export default function Contact({}: Props) {
             <a href="mailto:vishalgodalkar1@gmail.com" className="cursor-pointer">
               <span className="link link-underline link-underline-black">
                 {" "}
-                vishalgodalkar1@gmail.com
+                bhoraniket24@gmail.com
               </span>
             </a>
             <span className="inline-flex dark:text-white text-black">
@@ -95,10 +95,10 @@ export default function Contact({}: Props) {
           <span className="text-blue-500">
             <a
               target="_blank"
-              href="https://linkedin.com/in/vishal-godalkar"
+              href="https://www.linkedin.com/in/bhoraniket/"
               rel="noreferrer"
             >
-              Vishal Godalkar
+              Aniket Bhor
             </a>
           </span>
         </p>

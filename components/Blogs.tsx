@@ -14,55 +14,52 @@ type Achievement = {
 }
 
 const achievements: Achievement[] = [
+ 
   {
-    title: "Received $300 AUD Grant",
+    title: "PROJIT National Level Project Competition",
     description:
-      "Awarded a technology grant in the Technology Infusion Grand Challenge for the 'Swasthya' healthcare solution. Qualified for Phase 2.",
-    image: "/achievements/grant.png",
+      "Secured 2nd Prize, Trophy & ₹3000 Cash Prize at Institute of Technology, Management & Research, Nashik.",
+    image: "/achievements/winner.png",
     link: "https://www.linkedin.com/feed/update/urn:li:activity:7221163339622588416/",
-    category: "Grant",
-    date: "2024",
-  },
-  {
-    title: "Smart India Hackathon - 3rd Rank",
-    description: "Secured 3rd rank in inter-college selection among 130+ teams for Smart India Hackathon.",
-    image: "/achievements/sih.jpg",
-    link: "https://www.linkedin.com/feed/update/urn:li:activity:7221163339622588416/",
-    category: "Hackathon",
-    date: "2024",
-  },
-  {
-    title: "Stapathya Competition Winner",
-    description: "Won 1st prize in Stapathya Competition organized at PCCOE.",
-    image: "/achievements/stapatya.jpg",
-    link: "https://www.linkedin.com/posts/pranav-divekar_innovation-teamwork-pccoe-ugcPost-7177717214177878017-Y1UD?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADzFKhIBUWfH3_bMXTGpMBuBZAWi2fJ6u7s",
     category: "Competition",
-    date: "2024",
+    date: "2023",
   },
   {
-    title: "IIC Startup Competition - Runner-Up",
-    description: "Achieved runner-up position in Institution's Innovation Council (IIC) Startup Competition at PCCOE.",
-    image: "/achievements/iic.jpg",
-    link: "https://www.linkedin.com/posts/pranav-divekar_startup-entrepreneurship-pccoe-activity-7232628626188337152-Op80?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADzFKhIBUWfH3_bMXTGpMBuBZAWi2fJ6u7s",
-    category: "Startup",
-    date: "2024",
-  },
-  {
-    title: "Second Place at IDEARX",
-    description: "Presented the 'Health Passport' project at IDEARX competition under Praxis event series at PCCOE.",
-    image: "/achievements/idearx.jpg",
-    link: "https://www.linkedin.com/posts/vishal-godalkar-a42543245_thrilled-to-share-second-place-at-idearx-activity-7167403719725203456-0WQO?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADzFKhIBUWfH3_bMXTGpMBuBZAWi2fJ6u7s",
+    title: "GMRT Online Science Project Exhibition 2023",
+    description:
+      "Awarded as Most Innovative Project of 2023 at GMRT Khodad (NCRA – TIFR, Pune) and Indian Institute of Knowledge (IIK), Pune.",
+    image: "/achievements/winner.png",
+    link: "https://www.linkedin.com/feed/update/urn:li:activity:7221163339622588416/",
     category: "Innovation",
-    date: "2024",
+    date: "2023",
   },
   {
-    title: "Third Place - Technovate",
-    description: "Secured third place in Technovate at PCCOER. A proud moment representing innovation!",
-    image: "/achievements/technovate.jpg",
-    link: "https://www.linkedin.com/posts/pranav-divekar_technovate-at-pimpri-chinchwad-college-of-activity-7198307721152983041-u373?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADzFKhIBUWfH3_bMXTGpMBuBZAWi2fJ6u7s",
-    category: "Technology",
-    date: "2024",
+    title: "SHOD National Level Project Competition",
+    description:
+      "Received Participation Certificate at JSPM & TSSM Bhivrabai Sawant College of Engineering and Research, Polytechnic, Narhe Pune.",
+    image: "/achievements/winner.png",
+    link: "https://www.linkedin.com/feed/update/urn:li:activity:7221163339622588416/",
+    category: "Competition",
+    date: "2023",
   },
+  {
+    title: "Adsul National Level Quiz Competition",
+    description:
+      "Received Participation Certificate at Sau. Sundarabai Manik Adsul Polytechnic.",
+    image: "/achievements/adsul.png",
+    link: "https://www.linkedin.com/feed/update/urn:li:activity:7221163339622588416/",
+    category: "Competition",
+    date: "2023",
+  },
+  {
+    title: "DIPEX National Level Project Competition",
+    description:
+      "Received Participation Certificate at Sipna College of Engineering and Technology, Amravati.",
+    image: "/achievements/winner.png",
+    link: "https://www.linkedin.com/feed/update/urn:li:activity:7221163339622588416/",
+    category: "Competition",
+    date: "2023",
+  }
 ]
 
 const getCategoryIcon = (category: string) => {
@@ -204,7 +201,7 @@ export default function Achievements() {
         </motion.div>
 
         {/* Stats Summary */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}
@@ -213,7 +210,7 @@ export default function Achievements() {
         >
           <div className="inline-flex items-center gap-8 bg-white dark:bg-gray-800 rounded-lg px-8 py-4 shadow-md border border-gray-200 dark:border-gray-700">
             <div className="text-center">
-              <div className="text-2xl font-bold text-gray-900 dark:text-white">6+</div>
+              <div className="text-2xl font-bold text-gray-900 dark:text-white">5+</div>
               <div className="text-sm text-gray-600 dark:text-gray-400">Awards</div>
             </div>
             <div className="w-px h-8 bg-gray-300 dark:bg-gray-600" />
@@ -227,7 +224,7 @@ export default function Achievements() {
               <div className="text-sm text-gray-600 dark:text-gray-400">Grant Received</div>
             </div>
           </div>
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   )

@@ -5,15 +5,15 @@ import Image from "next/image";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 
 import { BackgroundCircles } from "@/components/index";
-import heroImg from "public/extraImages/vishal-godalkar.jpg"; // Replace with your image if needed
+import heroImg from "public/extraImages/Aniket _Bhor_Image.jpg"; // Replace with your image if needed
 
 type Props = {};
 
 export default function Hero({}: Props) {
   const [text, count] = useTypewriter({
     words: [
-      "Hey, Vishal Godalkar here.",
-      "I build full-stack web apps.",
+      "Hey, Aniket Bhor here.",
+      "I build Tech.",
       "I'm passionate about solving real-world problems.",
       "I love learning and sharing tech.",
     ],
@@ -32,14 +32,14 @@ export default function Hero({}: Props) {
         height={300}
         className="relative h-32 w-32 rounded-full mx-auto object-cover"
         src={heroImg}
-        alt="vishal godalkar profile image"
+        alt=" Aniket Bhor profile image"
         priority={true}
         loading="eager"
       />
 
       <div className="z-20">
         <h2 className="text-sm text-gray-800 dark:text-gray-400 uppercase tracking-[8px] md:tracking-[15px] pb-2 font-outfit">
-          Full-Stack Developer
+          Software Engineer
         </h2>
         <h1 className="pt-2 text-3xl md:text-4xl lg:text-6xl font-semibold px-16 text-black dark:text-gray-200">
           <span className="mr-3 font-outfit text-black dark:text-gray-200">
@@ -64,14 +64,14 @@ export default function Hero({}: Props) {
             <Link href="#projects">
               <button className="heroButton">projects</button>
             </Link>
-            <Link href="#blogs">
+            {/* <Link href="#blogs">
               <button className="heroButton">achievement</button>
-            </Link>
+            </Link> */}
           </div>
 
           {/* Resume Button */}
           <Link
-            href="/VishalGodalkar_Resume.pdf"
+            href="/Aniket_Bhor_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >

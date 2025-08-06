@@ -3,66 +3,49 @@
     "data": [
       {
         "id": 1,
-        "title": "Swasthya | Healthcare Web App",
-        "content": "Built a full-stack health monitoring platform integrating real-time wearable data and Python-based image processing to digitize medical records. Secure authentication implemented using JWT tokens.",
-        "imgurl": "/projectSS/swasthya.png",
-        "githubLink": "https://github.com/Vishalgodalkar/Swasthya",
+        "title": "📊 YouTube-DataAnalysis-ETL",
+        "content": "An end-to-end YouTube trending video analysis pipeline integrating AWS services and Power BI. From raw data ingestion to advanced dashboarding, this project covers real-time data ETL, schema discovery, and powerful visual insights using serverless querying and analytics tools.",
+        "imgurl": "/projectSS/youtube-dashboard.png",
+        "githubLink": "https://github.com/An1ket24/YouTube-DataAnalysis-ETL",
         "tech": [
-          { "tech": "/skillsLogos/node.png" },
           { "tech": "/skillsLogos/python.png" },
-          { "tech": "/skillsLogos/html.png" },
-          { "tech": "/skillsLogos/css.png" },
-          { "tech": "/skillsLogos/js.png" }
+          { "tech": "/skillsLogos/aws.png" },
+          { "tech": "/skillsLogos/powerbi.png" },
+          { "tech": "/skillsLogos/pyspark.png" },
+      
+          { "tech": "/skillsLogos/s3.png" },
+          { "tech": "/skillsLogos/glue.png" },
+          { "tech": "/skillsLogos/athena.png" }
         ]
       },
       {
         "id": 2,
+        "title": " 🌍 Social Media Summary Generator",
+        "content": "An AI-powered platform that automates the creation of social media content using real-time search, intelligent summarization, and cross-platform prompt engineering. Built with LangChain and Google GenAI, it delivers LinkedIn, Facebook, and Twitter-ready posts from any live topic.",
+        "imgurl": "/projectSS/socialgenai.png",
+        "githubLink": "https://github.com/An1ket24/Social-Media-Summary-Generator",
+        "tech": [
+          { "tech": "/skillsLogos/python.png" },
+          { "tech": "/skillsLogos/langchain.png" },
+          { "tech": "/skillsLogos/genai.png" },
+          { "tech": "/skillsLogos/duckduckgo.png" },
+          { "tech": "/skillsLogos/streamlit.png" }
+        ]
+      },
+      {
+        "id": 3,
         "title": "Next Cart | E-Commerce Website",
         "content": "Developed a responsive e-commerce platform with RESTful APIs, Node.js backend, and PostgreSQL. Performance optimizations improved checkout conversions by over 28%.",
         "imgurl": "/projectSS/NextCart.png",
-        "githubLink": "https://github.com/Vishalgodalkar/Next-Cart",
+        "githubLink": "https://github.com/An1ket24/Next-Cart-Ecommerce",
         "tech": [
           { "tech": "/skillsLogos/node.png" },
           { "tech": "/skillsLogos/html.png" },
           { "tech": "/skillsLogos/css.png" },
           { "tech": "/skillsLogos/js.png" }
         ]
-      },
-      {
-        "id": 3,
-        "title": "LSTM Traffic Prediction",
-        "content": "Built an LSTM-based deep learning model using Python and Keras to forecast traffic volume using historical and time-series data. Achieved high accuracy on real-world datasets.",
-        "imgurl": "/projectSS/traffic.jpg",
-        "githubLink": "https://github.com/Vishalgodalkar/TrafficPredection",
-        "tech": [
-          { "tech": "/skillsLogos/python.png" },
-          { "tech": "/skillsLogos/tensorflow.png" },
-          { "tech": "/skillsLogos/jupyter.png" }
-        ]
-      },
-      {
-        "id": 4,
-        "title": "AI Health Diagnosis System",
-        "content": "Developed a Tkinter-based desktop application that uses A* algorithm to predict diseases from symptoms using a CSV-trained symptom-disease dataset.",
-        "imgurl": "/projectSS/ai-health.png",
-        "githubLink": "https://github.com/Vishalgodalkar/Disease-Prediction",
-        "tech": [
-          { "tech": "/skillsLogos/python.png" }
-        ]
-      },
-      {
-        "id": 5,
-        "title": "Belas Creation",
-        "content": "Belas Creation offers premium outdoor advertising (hoardings), eco-friendly EV cycle ads, and full-stack digital marketing services. The platform includes footfall analytics and traffic-based ad reporting for effective campaign planning.",
-        "imgurl": "/projectSS/belas-creation.png",
-        "githubLink": "https://github.com/Vishalgodalkar/Belas-Creation",
-        "tech": [
-          { "tech": "/skillsLogos/html.png" },
-          { "tech": "/skillsLogos/css.png" },
-          { "tech": "/skillsLogos/js.png" },
-          { "tech": "/skillsLogos/bootstrap.png" }
-        ]
       }
+      
     ]
   }
 }

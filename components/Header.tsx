@@ -24,7 +24,7 @@ export default function Header({}: Props) {
               transition={{ type: "spring", stiffness: 300, damping: 15 }}
             >
               <Link
-                href="https://github.com/Vishalgodalkar"
+                href="https://github.com/An1ket24"
                 target="_blank"
                 className="text-gray-800 hover:text-gray-900 dark:hover:text-white dark:text-gray-400 transition-colors duration-200"
                 aria-label="GitHub"
@@ -50,7 +50,7 @@ export default function Header({}: Props) {
               transition={{ type: "spring", stiffness: 300, damping: 15 }}
             >
               <Link
-                href="https://www.linkedin.com/in/vishal-godalkar-a42543245/"
+                href="https://www.linkedin.com/in/bhoraniket/"
                 target="_blank"
                 className="text-gray-800 hover:text-gray-900 dark:hover:text-white dark:text-gray-400 transition-colors duration-200"
                 aria-label="LinkedIn"
@@ -73,7 +73,7 @@ export default function Header({}: Props) {
               transition={{ type: "spring", stiffness: 300, damping: 15 }}
             >
               <Link
-                href="https://leetcode.com/u/godalkar_vishal/"
+                href="https://leetcode.com/u/bhoraniket24/"
                 target="_blank"
                 className="text-gray-800 hover:text-gray-900 dark:hover:text-white dark:text-gray-400 transition-colors duration-200"
                 aria-label="LeetCode"
@@ -95,7 +95,7 @@ export default function Header({}: Props) {
               transition={{ type: "spring", stiffness: 300, damping: 15 }}
             >
               <Link
-                href="https://instagram.com/vishal.godalkar"
+                href="https://instagram.com/an1ket_24"
                 target="_blank"
                 className="text-gray-800 hover:text-gray-900 dark:hover:text-white dark:text-gray-400 transition-colors duration-200"
                 aria-label="Instagram"
