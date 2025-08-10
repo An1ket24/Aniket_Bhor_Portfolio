@@ -58,7 +58,7 @@ export default function Contact({}: Props) {
         <h5 className="mt-28">
           <p className="text-xl font-md font-outfit text-gray-900 dark:text-gray-200 md:ml-5">
             or drop a mail at{" "}
-            <a href="mailto:vishalgodalkar1@gmail.com" className="cursor-pointer">
+            <a href="mailto:bhoraniket24@gmail.com" className="cursor-pointer">
               <span className="link link-underline link-underline-black">
                 {" "}
                 bhoraniket24@gmail.com
